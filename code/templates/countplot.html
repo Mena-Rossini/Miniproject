@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plotly Visualization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <div id="plot"></div>
+    <script>
+        var plot = {{ plot | safe }};
+        Plotly.newPlot('plot', plot.data, plot.layout);
+    </script>
+    <p><a href="/">Back to Dashboard</a></p>
+</body>
+</html>

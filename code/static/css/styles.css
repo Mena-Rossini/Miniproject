@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-bar {
+    background-color: #f2f6fc; /* Light background to make the logo stand out */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #1a75ff;
+    border-bottom: 2px solid #1a75ff; /* Blue border for a cleaner look */
+}
+
+.header-bar img {
+    height: 150px;
+    margin-right: 10px;
+}
+
+.header-bar h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #1a75ff; /* Blue color inspired by the logo */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #1a75ff;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #004d99;
+}

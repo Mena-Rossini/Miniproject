@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Visualizations</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="icon" href="../static/assets/logo.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-bar {
+            background-color: #f2f6fc;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            color: #1a75ff;
+            border-bottom: 2px solid #1a75ff;
+        }
+
+        .header-bar img {
+            height: 60px;
+            margin-right: 10px;
+        }
+
+        .header-bar h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #1a75ff;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #f2f6fc;
+            border: 1px solid #1a75ff;
+            border-radius: 8px;
+            flex: 1; /* Each card takes equal space */
+            text-align: center;
+            text-decoration: none;
+            color: #1a75ff;
+            font-weight: bold;
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            min-width: calc(20% - 20px); /* Ensures cards distribute across the width */
+            box-sizing: border-box; /* Ensures padding/border don’t add to width */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 120px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            object-fit: cover;
+        }
+
+        .card-text {
+            padding: 10px;
+            flex-grow: 1; /* Expands the text area to fill remaining space */
+        }
+    </style>
+</head>
+<body>
+    <div class="header-bar">
+        <img src="../static/assets/logo.png" alt="Logo">
+        <h1>Impact of Digital Learning on Students</h1>
+    </div>
+    
+    <div class="card-container">
+        <a href="/histogram" class="card">
+            <img src="../static/assets/histogram.jpg" alt="Hours Histogram">
+            <div class="card-text">Hours Histogram</div>
+        </a>
+        <a href="/countplot" class="card">
+            <img src="../static/assets/countplot.png" alt="Improvement Count Plot">
+            <div class="card-text">Improvement Count Plot</div>
+        </a>
+        <a href="/heatmap" class="card">
+            <img src="../static/assets/heatmap.jpg" alt="Correlation Heatmap">
+            <div class="card-text">Correlation Heatmap</div>
+        </a>
+        <a href="/boxplot" class="card">
+            <img src="../static/assets/boxplot.jpg" alt="Box Plot">
+            <div class="card-text">Box Plot</div>
+        </a>
+        <a href="/pairplot" class="card">
+            <img src="../static/assets/pairplot.jpg" alt="Pair Plot">
+            <div class="card-text">Pair Plot</div>
+        </a>
+    </div>
+</body>
+</html>
