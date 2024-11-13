@@ -39,7 +39,9 @@ Output - https://digieffect.onrender.com/
 The Impact of Digital Learning on Students project demonstrates the effectiveness of digital learning tools in enhancing student performance. By leveraging machine learning and data analysis, the project provides educators with actionable insights to optimize digital learning strategies. This project aims to contribute to the educational community's understanding of how digital platforms can improve engagement, performance, and overall learning outcomes, fostering a more efficient and inclusive learning environment.
 
 ## Articles published / References
+
 S. Patel, R. Kumar, “Impact of Digital Learning Tools on Student Performance: A Statistical Analysis”, Journal of Educational Technology, vol. 15, Apr. 2024.
+
 M. T. Sharma, “Analyzing the Role of Digital Platforms in Enhancing Education,” Educational Research Journal, vol. 9, no. 2, Mar. 2024.
 
 
