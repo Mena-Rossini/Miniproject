@@ -1,5 +1,5 @@
 ## Title of the Project
-DigiEffect - Impact of Digital Learning on Students
+DigiEffect - Impact of Digital Learning on Students.
 
 ## About
 The Impact of Digital Learning on Students project aims to analyze how digital learning tools influence student performance. As educational institutions increasingly integrate digital tools for teaching and learning, it becomes essential to evaluate their effectiveness. This project focuses on the correlation between digital learning platforms and student engagement, performance, and learning outcomes. By utilizing data analysis and machine learning techniques, the project helps in understanding the overall impact of digital learning and provides valuable insights into improving the educational experience for students.
